@@ -1,13 +1,34 @@
 body {
-color: darkgreen;
-background:aquamarine;
+color:darkgreen;
+background: aquamarine;
 margin: 0px;
-font-family : "chakra petch", sans-serif;
+font-family: "Chakra Petch", sans-serif;
+
 }
 
 header {
-border-bottom:solid 2px rgb(0,0,225);
-padding : 20px;
+border-bottom: solid 2px rgb(0,0,255);
+padding: 20px;
 font-size: 32px;
-color : rgb(0,0,225);
+color: rgb(0,0,255);
+}
+
+section{
+    background: rgb(207, 193, 146);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
 }
